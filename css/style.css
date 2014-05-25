@@ -1,0 +1,56 @@
+
+.payment_container {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:12pt;
+color:#252829;
+width:500px;
+text-align:center;
+}
+
+.payment_container p {
+font-size:.9em;
+}
+	
+.payment {
+position:relative;
+overflow:hidden;
+width:400px;
+height:110px;
+margin:0 auto;
+background-color:#fefefe;
+padding:10px;
+border:1px solid #9a9a9a;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: #B3B3B3 1px 1px 1px;
+-moz-box-shadow: #B3B3B3 1px 1px 1px; 
+box-shadow: #B3B3B3 1px 1px 1px;
+text-align:center;
+}
+
+.payment span.payment_title {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:.8em;
+color:#4c4f51;
+}
+
+.payment div.payment_addr {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-weight:bold;
+font-size:1em;
+color:#252829;
+}
+
+.payment span.payment_status {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+font-size:.9em;
+color:#4c4f51;
+}
+
+.hidden { display: none; }
+
+/***********************/
+/* Ajax Loader styles */
+.ajax_loader {background: url("../images/spinner_squares_circle.gif") no-repeat center center transparent;width:100%;height:100%;}
+.blue-loader .ajax_loader {background: url("../images/ajax-loader_blue.gif") no-repeat center 60px transparent;}

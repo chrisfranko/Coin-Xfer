@@ -1,0 +1,40 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">	
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="js/functions.js" type="text/javascript"></script>
+<script id="loader" src="js/paymentLoader.js" type="text/javascript"></script>
+
+<body>
+
+<label>Email Address: </label><input type="text" name="email" id="email" /><br />
+<label>First Name: </label><input type="text" name="firstName" id="firstName" /><br />
+<label>Amount: </label><input type="text" name="expectedBalance" id="expectedBalance" /><br />
+<label>Return Address: </label><input type="text" name="paymentAddress" id="paymentAddress" /><br /><br />
+<input type="submit" id="formSubmit" value="Go!" />
+
+<br /><br /><br />
+
+<div class="payment_container hidden">
+
+<p>Leave this window open! payment will not process without it.</p>
+
+	<div class="payment">
+	
+	<span class="payment_title">Payment Address:</span>
+	<div class="payment_addr"></div>
+	<br /><br />
+	<span class="payment_status">Current Status: Pending</span>
+	
+	</div>
+	
+</div>
+
+<br /><br /><br />
+
+<div id="response"></div>
+
+
+</body>
+</html>
